@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Checkout - SHOP</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <input type="checkbox" id="menu-toggle" class="navdiv" />
+        <label for="menu-toggle" class="burger-menu">
+          <i class="fa fa-bars" style="font-size: 17px"></i>
+        </label>
+        <div class="menu-container">
+          <nav class="menu-links">
+            <a href="./mens-outerwear.html">Men's Outerwear</a>
+            <a href="./ladies-outerwear.html">Ladie's Outerwear</a>
+            <a href="./men-t-shirts.html">Men's T-shirt</a>
+            <a href="./ladies-t-shirts.html">ladie's T-shirt</a>
+          </nav>
+        </div>
+        <label for="menu-toggle" class="overlay"></label>
+      </div>
+
+      <a href="./Home.html"><h1 class="heading">SHOP</h1></a>
+      <a href="./cart.html"
+        ><i class="fa fa-shopping-cart" style="font-size: 22px"></i
+      ></a>
+    </header>
+    <main>
+      <section class="form-header">
+        <p>Checkout</p>
+        <p class="item-numbers">
+          Shop is demo app - form data will not be sent
+        </p>
+      </section>
+      <section class="details-form">
+        <section class="personal-details-main">
+          <form class="personal-details">
+            <h2>Account Information</h2>
+            <div class="input-container">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="input-container">
+              <input
+                type="number"
+                name="phone"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+            <h2>Shipping Address</h2>
+            <div class="input-container">
+              <input
+                type="text"
+                name="Address"
+                placeholder="Address"
+                required
+              />
+            </div>
+            <div class="input-container">
+              <input type="text" name="city" placeholder="City" required />
+            </div>
+            <div class="costal">
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="State"
+                  placeholder="State/Province"
+                  required
+                />
+              </div>
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="Zip"
+                  placeholder="Postal Code"
+                  required
+                />
+              </div>
+            </div>
+            <p>Country</p>
+            <div class="input-container">
+              <select>
+                <option>USA</option>
+                <option>Canada</option>
+              </select>
+            </div>
+            <h2>Billing Address</h2>
+            <div class="checkbox-class">
+              <input type="checkbox" />
+              <label> Use different billing address</label>
+            </div>
+            <div id="billing-address">
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="Address"
+                  placeholder="Address"
+                  required
+                />
+              </div>
+              <div class="input-container">
+                <input type="text" name="city" placeholder="City" required />
+              </div>
+              <div class="costal">
+                <div class="input-container">
+                  <input
+                    type="text"
+                    name="State"
+                    placeholder="State/Province"
+                    required
+                  />
+                </div>
+                <div class="input-container">
+                  <input
+                    type="text"
+                    name="Zip"
+                    placeholder="Postal Code"
+                    required
+                  />
+                </div>
+              </div>
+              <p>Country</p>
+              <div class="input-container">
+                <select>
+                  <option>USA</option>
+                  <option>Canada</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <section class="payment-details">
+          <h2>Payment Method</h2>
+          <div class="input-container">
+            <input type="text" name="name" placeholder="Cardholder Name" />
+          </div>
+          <div class="input-container">
+            <input type="number" placeholder="Card Number" />
+          </div>
+          <p>Expiry</p>
+          <div class="dates-sections">
+            <select>
+              <option>Jan</option>
+              <option>Feb</option>
+              <option>Mar</option>
+              <option>Apr</option>
+              <option>May</option>
+              <option>Jun</option>
+              <option>Jul</option>
+              <option>Aug</option>
+              <option>Sep</option>
+              <option>Oct</option>
+              <option>Nov</option>
+              <option>Dec</option>
+            </select>
+            <select>
+              <option>2016</option>
+              <option>2017</option>
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+              <option>2023</option>
+              <option>2024</option>
+              <option>2025</option>
+              <option>2026</option>
+              <option>2027</option>
+            </select>
+            <div class="input-container">
+              <input type="text" placeholder="CVV" id="CVV" />
+            </div>
+          </div>
+          <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="item1 items">
+              <p>Men's Tech Shell Full-Zip</p>
+              <p class="item-cost">$50.20</p>
+            </div>
+            <div class="item2 items">
+              <p class="item-cost">Anvil L/S Crew Neck - Grey</p>
+              <p>$22.15</p>
+            </div>
+            <div class="items-total items">
+              <p>Total</p>
+              <p class="item-cost">$72.35</p>
+            </div>
+          </div>
+          <button class="place-order-button">PLACE ORDER</button>
+        </section>
+      </section>
+    </main>
+    <footer class="footer-class" id="Checkout-footer-class">
+      <p>Made by Polymer</p>
+      <button>DEMO ONLY</button>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/* Box-sizing border-box for all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles on ul, ol */
+ul, ol {
+    list-style:disc;
+}
+
+/* Ensure images don't exceed their container */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset anchor tag styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset heading and paragraph spacing */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-weight: inherit;
+}
+
+/* Set a default font size */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* Remove default button styling */
+button, input, textarea, select {
+    font: inherit;
+    outline: none;
+    background: none;
+}
+select{
+    border: none;
+}
+/* Remove default focus outlines, keep accessibility */
+button:focus, input:focus, a:focus {
+    /* outline: 2px solid #007bff; Change this color as needed */
+    outline-offset: 2px;
+}
