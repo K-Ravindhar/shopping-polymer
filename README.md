@@ -16,8 +16,8 @@
 | Page | Description |
 |------|-------------|
 | **Home Page** | Landing page with banners, featured items, and navigation. |
-| **Men's Collection** | Product listing page for men's **T-shirts** and **Shirts**. |
-| **Women's Collection** | Product listing page for women's **T-shirts** and **Shirts**. |
+| **Men's Collection** | Product listing page for men's **T-shirts** and **Outerwear**. |
+| **Women's Collection** | Product listing page for women's **T-shirts** and **Outerwear**. |
 | **Product Description Page** | Detailed view of a single product with images, description, and price. |
 | **Cart Page** | Displays selected products with quantity and price details. |
 | **Checkout Page** | Final page to enter user and payment details for purchase. |
@@ -30,7 +30,7 @@
 - 📱 Fully **responsive design** — works well on desktops, tablets, and mobile devices
 - 🛒 Interactive cart and checkout pages (frontend only)
 - 🧍 Gender-based product navigation (Men/Women)
-- 👕 Focused on **T-shirts** and **Shirts** categories
+- 👕 Focused on **T-shirts** and **Outerwear** categories
 
 ---
 
@@ -70,11 +70,11 @@ shopping-polymer/
 ├── mens-t-sthirt.html          # Men's T Shirt
 ├── Ladies-outerwear.html       # Ladie's Outerwear
 ├── Ladies-t-sthirt.html        # Ladie's T Shirt
-├── single-page.html            # Product Description Page
+├── single-page.html            # Product Description 
 ├── cart.html                   # Cart Page
 ├── checkout.html               # Checkout Page
 ├── styles/
-│   └── reset.css              # Global styles
+│   └── reset.css               # Global styles
 │   └── styles.css              # Global styles
 images                
 │   └── Ladies_outerwear/                  
